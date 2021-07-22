@@ -1,0 +1,9 @@
+apiVersion: accelerator.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: spring-app
+spec:
+  git:
+    url: https://github.com/warroyo/spring-app-accelerator.git
+    ref:
+      branch: main
