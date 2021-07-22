@@ -5,7 +5,7 @@ accelerator:
   git:
     ignore: |
       .git/
-      k8s-resource.yml
+      k8s-resource.yaml
   tags:
   - java
   - spring
